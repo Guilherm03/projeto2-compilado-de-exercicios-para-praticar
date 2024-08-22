@@ -92,7 +92,7 @@ O terceiro número elevado ao cubo é: ${cubo}`)
 //12.Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
 
 let altura1 = parseFloat(prompt("Digite sua altura: "));
-let pesoIdeal = Number(72.7*altura) - 58;
+let pesoIdeal = (72.7*altura) - 58;
 
 alert (`Seu peso ideal é: ${pesoIdeal}kg`);
 
